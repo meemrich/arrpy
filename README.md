@@ -3,7 +3,7 @@
 A lightweight module allowing simple manipulation of 2D arrays using base python list objects. Designed for use in pandas-incompatible situations, such as when working in Jython. Allows import and export of spreadsheets, finding the mean across rows or columns, and row extraction.
 
 ## Download ##
-run '''python pip install arrpy'''
+run `python pip install arrpy`
 
 ## Import and export ##
 	
