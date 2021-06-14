@@ -49,7 +49,7 @@ Outputs the arithmetic mean of the rows (a given index of each subarray) of *arr
 *base_check* is a boolean to determine whether to run a set of basic compatibilty checks on *arr* (type, length, dimension count, and raggedness)
 *dim_check* is a boolean to determine whether to check if *arr* has a consistent number of dimensions. This can be slow for larger *arr*.
 
-**row_extract**(arr, row, base_check = True)
+**extract_row**(arr, row, base_check = True)
 Outputs the selected row (given index of each subarray of *arr*) as a list.
 *arr* is a list of lists.
 *row* is an object that is coercible to 0 <= int <= len(arr[0]).
