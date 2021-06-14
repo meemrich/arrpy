@@ -14,7 +14,7 @@ Open *file* and return a corresponding list of lists.
 *subarray* is a string denoting whether the respective subarrays in the list created will correspond to a row or a columns of *file*.
 *e* is a string denoting the encoding of the *file*.
 
-**write_csv**(arr, path, subarray = "col")
+**write_csv**(arr, file, subarray = "col")
 Write *arr* to *file*.
 *arr* is a list of lists.
 *file* is a string denoting the path to write to.
